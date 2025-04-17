@@ -1,16 +1,25 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.2;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.userCard {
+  max-width: 300px;
+  width: 100%;
+  min-width: 250px;
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px black;
+  overflow: hidden;
 }
 
 .bg {
